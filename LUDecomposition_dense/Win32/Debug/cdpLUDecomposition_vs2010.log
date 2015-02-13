@@ -1,0 +1,63 @@
+﻿Build started 10/31/2013 3:57:28 PM.
+     1>Project "C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense\cdpLUDecomposition_vs2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32/Debug/cdpLUDecomposition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_HAS_ITERATOR_DEBUGGING=0 /D_MBCS /I./ /I../../common/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c "C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense\dgetf2.cu" 
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file dgetf2.cu...
+         cmd.exe /C "C:\Users\lorraine\AppData\Local\Temp\b98c1481dfcd4f989b9122546c90f663.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I./ -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static -Xcompiler "/wd 4819"  -g   -DWIN32 -D_HAS_ITERATOR_DEBUGGING=0 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd  " -o Win32/Debug/dgetf2.cu.obj "C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense\dgetf2.cu"
+         
+         C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin" -rdc=true -I./ -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static -Xcompiler "/wd 4819"  -g   -DWIN32 -D_HAS_ITERATOR_DEBUGGING=0 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd  " -o Win32/Debug/dgetf2.cu.obj "C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense\dgetf2.cu" 
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       CudaLink:
+         cmd.exe /C "C:\Users\lorraine\AppData\Local\Temp\409b35e7158f4cae94baf5bcd9f20add.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -dlink -o Win32/Debug/cdpLUDecomposition.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" -L../../common/lib/Win32 cudart_static.lib cudadevrt.lib cublas.lib cublas_device.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 32 Win32/Debug/cdp_lu.cu.obj Win32/Debug/cdp_lu_main.cu.obj Win32/Debug/dgetf2.cu.obj Win32/Debug/dgetrf.cu.obj Win32/Debug/dlaswp.cu.obj
+         
+         C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -dlink -o Win32/Debug/cdpLUDecomposition.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" -L../../common/lib/Win32 cudart_static.lib cudadevrt.lib cublas.lib cublas_device.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 32 Win32/Debug/cdp_lu.cu.obj Win32/Debug/cdp_lu_main.cu.obj Win32/Debug/dgetf2.cu.obj Win32/Debug/dgetrf.cu.obj Win32/Debug/dlaswp.cu.obj 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug/cdpLUDecomposition.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" /LIBPATH:../../common/lib/Win32 cudart_static.lib cudadevrt.lib cublas.lib cublas_device.lib cublas_device.lib cudadevrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/cdpLUDecomposition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lorraine\Desktop\CG on GPU\Code\bin\win32\Debug\cdpLUDecomposition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/cdpLUDecomposition.lib" /MACHINE:X86 Win32/Debug/cdp_lu.cu.obj
+         Win32/Debug/cdp_lu_main.cu.obj
+         Win32/Debug/dgetf2.cu.obj
+         Win32/Debug/dgetrf.cu.obj
+         Win32/Debug/dlaswp.cu.obj
+         "Win32/Debug/cdpLUDecomposition.device-link.obj"
+         LINK : ../../bin/win32/Debug/cdpLUDecomposition.exe not found or not built by the last incremental link; performing full link
+            Creating library ../../bin/win32/Debug/cdpLUDecomposition.lib and object ../../bin/win32/Debug/cdpLUDecomposition.exp
+         cdpLUDecomposition_vs2010.vcxproj -> C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense\../../bin/win32/Debug/cdpLUDecomposition.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug/cdpLUDecomposition.exe;#1" /manifest Win32/Debug/cdpLUDecomposition.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32/Debug/cdpLUDecomposition.unsuccessfulbuild".
+         Touching "Win32/Debug/cdpLUDecomposition.lastbuildstate".
+     1>Done Building Project "C:\Users\lorraine\Desktop\CG on GPU\Code\Finished_Code\LUDecomposition_dense\cdpLUDecomposition_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.28
